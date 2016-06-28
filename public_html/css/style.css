@@ -1,0 +1,281 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 20, 2016, 7:29:08 PM
+    Author     : Ian
+*/
+
+
+#top{
+    position: fixed;
+}
+.active{
+    color: black;
+}
+#parallax1,#parallax2,#parallax3{
+    height:800px;
+}
+#parallax4{
+    height:900px;
+}
+.nosvg{
+    padding-top:100px;
+}
+.skew{
+    position: relative;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.header-content{
+    position: absolute;
+    bottom: 100px;
+    bottom: calc(100% - 73%);
+    width: 53%;
+}
+.overlay, .overlay-serv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    top:0;
+    left:0;
+    content: "";
+    display: block;
+}
+.overlay-serv{
+    opacity: 1;
+    background-color: orange;
+}
+.overlay-orange {
+    position: absolute;
+    width: 47%;
+    right: 0;
+    height: 100%;
+    background:  #b36b00;
+    z-index: 1;
+    opacity: 0.7;
+}
+.material-icons.orange1{
+    color: orange ;
+}
+#bottomShape {
+    margin-bottom: 0;
+    top: -48px;
+    z-index: 2;
+}
+#topShape {
+    top: 95px;
+    z-index: 2;
+    margin-top: -25px;
+}
+#bottomShape, #topShape, .blackSkew, .pullBown-btn {
+    position: relative;
+    fill : #262626;
+}
+
+#parallax1 #parallax2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,.5);
+}
+.slider .slides li .caption {
+    top: 10%;
+}
+.slider{
+    display:flex;
+}
+.caption i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@font-face {
+    font-family: 'myFont';
+    src: url('fonts/Ambrose-Plain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.titlez{
+    text-align: center;
+    color: orange;
+    position: relative;
+    z-index: 1;
+}
+.titlez i{
+    display: block;
+    line-height: 30px;;
+}
+.sliding-middle-out {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+}
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 40px;
+    background: orange;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+    width: 70%;
+    background: orange;
+}
+.abt{
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+.paddy{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text-carousel{
+    display:block;
+}
+.collapsible-header,.collapsible-body {
+    background-color: #ff9900;
+    font-size: 18px;
+}
+.collapsible-header{
+    border-bottom: 0px solid #000;
+}
+.wrapper {
+    width: 95%;
+    margin: 3em auto;
+}
+.carousel-wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 100%;
+}
+.accordion {
+  width: 100%;
+  max-width: 1080px;
+  height: 250px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+}
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.accordion ul li div a {
+  display: block;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+}
+.accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.accordion ul li div a h2 {
+  font-family: Montserrat,sans-serif;
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 160px;
+}
+.accordion ul li div a p {
+  top: 160px; 
+  font-size: 13.5px;
+}
+.accordion ul li:nth-child(1) {
+  background-image: url("http://michael-ferry.com/assets/accordion1.jpg");
+}
+.accordion ul li:nth-child(2) {
+  background-image: url("http://michael-ferry.com/assets/accordion2.jpg");
+}
+.accordion ul li:nth-child(3) {
+  background-image: url("http://michael-ferry.com/assets/accordion3.jpg");
+}
+.accordion ul li:nth-child(4) {
+  background-image: url("http://michael-ferry.com/assets/accordion4.jpg");
+}
+.accordion ul li:nth-child(5) {
+  background-image: url("http://michael-ferry.com/assets/accordion5.jpg");
+}
+.accordion ul li:nth-child(6) {
+  background-image: url("http://michael-ferry.com/assets/accordion6.jpg");
+}
+.accordion ul:hover li {
+  width: 8%;
+}
+.accordion ul:hover li:hover {
+  width: 60%;
+}
+.accordion ul:hover li:hover a {
+  background: rgba(0, 0, 0, 0.4);
+}
+.accordion ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  .accordion {
+    height: auto;
+  }
+  .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+}

@@ -1,0 +1,257 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 08/06/2016 13:00
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-about-us:before { content: "\f100"; }
+.flaticon-arrow:before { content: "\f101"; }
+.flaticon-camera:before { content: "\f102"; }
+.flaticon-cement-truck:before { content: "\f103"; }
+.flaticon-city:before { content: "\f104"; }
+.flaticon-city-1:before { content: "\f105"; }
+.flaticon-city-avenue-perspective:before { content: "\f106"; }
+.flaticon-close-envelope:before { content: "\f107"; }
+.flaticon-cogwheel:before { content: "\f108"; }
+.flaticon-concrete-mixer:before { content: "\f109"; }
+.flaticon-concrete-mixer-truck-side-view:before { content: "\f10a"; }
+.flaticon-connected-persons-triangle:before { content: "\f10b"; }
+.flaticon-construction:before { content: "\f10c"; }
+.flaticon-construction-1:before { content: "\f10d"; }
+.flaticon-construction-2:before { content: "\f10e"; }
+.flaticon-construction-machine-equipment:before { content: "\f10f"; }
+.flaticon-construction-tool-of-vehicle-with-big-shovel:before { content: "\f110"; }
+.flaticon-construction-tool-vehicle-with-crane-lifting-materials:before { content: "\f111"; }
+.flaticon-construction-truck:before { content: "\f112"; }
+.flaticon-construction-vehicle:before { content: "\f113"; }
+.flaticon-construction-vehicle-for-concrete-transportation:before { content: "\f114"; }
+.flaticon-constructor-with-hard-hat-protection-on-his-head:before { content: "\f115"; }
+.flaticon-conveyor-facing-right:before { content: "\f116"; }
+.flaticon-crane:before { content: "\f117"; }
+.flaticon-crane-1:before { content: "\f118"; }
+.flaticon-crane-2:before { content: "\f119"; }
+.flaticon-date-day-with-architect-calendar-reminder-to-house-construction-project-development:before { content: "\f11a"; }
+.flaticon-demolition:before { content: "\f11b"; }
+.flaticon-derrick-with-ball:before { content: "\f11c"; }
+.flaticon-dozer:before { content: "\f11d"; }
+.flaticon-driller:before { content: "\f11e"; }
+.flaticon-email:before { content: "\f11f"; }
+.flaticon-employment-deal:before { content: "\f120"; }
+.flaticon-envelope:before { content: "\f121"; }
+.flaticon-farm-tractor:before { content: "\f122"; }
+.flaticon-garage-fixing-toolbox-set:before { content: "\f123"; }
+.flaticon-gears-triangle:before { content: "\f124"; }
+.flaticon-glasses:before { content: "\f125"; }
+.flaticon-hand-shake:before { content: "\f126"; }
+.flaticon-hands-shaking:before { content: "\f127"; }
+.flaticon-home:before { content: "\f128"; }
+.flaticon-home-interface:before { content: "\f129"; }
+.flaticon-home-page:before { content: "\f12a"; }
+.flaticon-house-1:before { content: "\f12b"; }
+.flaticon-house-sale-agreement:before { content: "\f12c"; }
+.flaticon-industrial-excavator:before { content: "\f12d"; }
+.flaticon-loaded-truck:before { content: "\f12e"; }
+.flaticon-loader-facing-left:before { content: "\f12f"; }
+.flaticon-management:before { content: "\f130"; }
+.flaticon-meeting:before { content: "\f131"; }
+.flaticon-meeting-1:before { content: "\f132"; }
+.flaticon-mine-truck:before { content: "\f133"; }
+.flaticon-mixer:before { content: "\f134"; }
+.flaticon-mixer-truck:before { content: "\f135"; }
+.flaticon-mixer-truck-1:before { content: "\f136"; }
+.flaticon-opened-email-envelope:before { content: "\f137"; }
+.flaticon-paper-airplane:before { content: "\f138"; }
+.flaticon-paper-airplane-1:before { content: "\f139"; }
+.flaticon-paper-plane-1:before { content: "\f13a"; }
+.flaticon-paper-plane-2:before { content: "\f13b"; }
+.flaticon-people:before { content: "\f13c"; }
+.flaticon-phone-call:before { content: "\f13d"; }
+.flaticon-photo-camera:before { content: "\f13e"; }
+.flaticon-photo-camera-1:before { content: "\f13f"; }
+.flaticon-photo-camera-2:before { content: "\f140"; }
+.flaticon-photo-camera-3:before { content: "\f141"; }
+.flaticon-photo-camera-4:before { content: "\f142"; }
+.flaticon-project-manager:before { content: "\f143"; }
+.flaticon-road:before { content: "\f144"; }
+.flaticon-road-1:before { content: "\f145"; }
+.flaticon-scraper:before { content: "\f146"; }
+.flaticon-send-symbol:before { content: "\f147"; }
+.flaticon-shaking-hands:before { content: "\f148"; }
+.flaticon-shovel:before { content: "\f149"; }
+.flaticon-shovel-1:before { content: "\f14a"; }
+.flaticon-shovel-tool:before { content: "\f14b"; }
+.flaticon-technology:before { content: "\f14c"; }
+.flaticon-tool:before { content: "\f14d"; }
+.flaticon-tool-1:before { content: "\f14e"; }
+.flaticon-tool-2:before { content: "\f14f"; }
+.flaticon-tool-3:before { content: "\f150"; }
+.flaticon-tool-4:before { content: "\f151"; }
+.flaticon-toolbox:before { content: "\f152"; }
+.flaticon-toolbox-1:before { content: "\f153"; }
+.flaticon-tow-truck:before { content: "\f154"; }
+.flaticon-tractor-side-view:before { content: "\f155"; }
+.flaticon-transport:before { content: "\f156"; }
+.flaticon-transport-1:before { content: "\f157"; }
+.flaticon-transport-10:before { content: "\f158"; }
+.flaticon-transport-11:before { content: "\f159"; }
+.flaticon-transport-12:before { content: "\f15a"; }
+.flaticon-transport-13:before { content: "\f15b"; }
+.flaticon-transport-2:before { content: "\f15c"; }
+.flaticon-transport-3:before { content: "\f15d"; }
+.flaticon-transport-4:before { content: "\f15e"; }
+.flaticon-transport-5:before { content: "\f15f"; }
+.flaticon-transport-6:before { content: "\f160"; }
+.flaticon-transport-7:before { content: "\f161"; }
+.flaticon-transport-8:before { content: "\f162"; }
+.flaticon-transport-9:before { content: "\f163"; }
+.flaticon-trolley:before { content: "\f164"; }
+.flaticon-truck:before { content: "\f165"; }
+.flaticon-truck-facing-right:before { content: "\f166"; }
+.flaticon-truck-transport-with-construction-materials:before { content: "\f167"; }
+.flaticon-truck-with-load:before { content: "\f168"; }
+.flaticon-wall-of-bricks:before { content: "\f169"; }
+.flaticon-web-page-home:before { content: "\f16a"; }
+.flaticon-weighlifter:before { content: "\f16b"; }
+.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before { content: "\f16c"; }
+    
+    $font-Flaticon-about-us: "\f100";
+    $font-Flaticon-arrow: "\f101";
+    $font-Flaticon-camera: "\f102";
+    $font-Flaticon-cement-truck: "\f103";
+    $font-Flaticon-city: "\f104";
+    $font-Flaticon-city-1: "\f105";
+    $font-Flaticon-city-avenue-perspective: "\f106";
+    $font-Flaticon-close-envelope: "\f107";
+    $font-Flaticon-cogwheel: "\f108";
+    $font-Flaticon-concrete-mixer: "\f109";
+    $font-Flaticon-concrete-mixer-truck-side-view: "\f10a";
+    $font-Flaticon-connected-persons-triangle: "\f10b";
+    $font-Flaticon-construction: "\f10c";
+    $font-Flaticon-construction-1: "\f10d";
+    $font-Flaticon-construction-2: "\f10e";
+    $font-Flaticon-construction-machine-equipment: "\f10f";
+    $font-Flaticon-construction-tool-of-vehicle-with-big-shovel: "\f110";
+    $font-Flaticon-construction-tool-vehicle-with-crane-lifting-materials: "\f111";
+    $font-Flaticon-construction-truck: "\f112";
+    $font-Flaticon-construction-vehicle: "\f113";
+    $font-Flaticon-construction-vehicle-for-concrete-transportation: "\f114";
+    $font-Flaticon-constructor-with-hard-hat-protection-on-his-head: "\f115";
+    $font-Flaticon-conveyor-facing-right: "\f116";
+    $font-Flaticon-crane: "\f117";
+    $font-Flaticon-crane-1: "\f118";
+    $font-Flaticon-crane-2: "\f119";
+    $font-Flaticon-date-day-with-architect-calendar-reminder-to-house-construction-project-development: "\f11a";
+    $font-Flaticon-demolition: "\f11b";
+    $font-Flaticon-derrick-with-ball: "\f11c";
+    $font-Flaticon-dozer: "\f11d";
+    $font-Flaticon-driller: "\f11e";
+    $font-Flaticon-email: "\f11f";
+    $font-Flaticon-employment-deal: "\f120";
+    $font-Flaticon-envelope: "\f121";
+    $font-Flaticon-farm-tractor: "\f122";
+    $font-Flaticon-garage-fixing-toolbox-set: "\f123";
+    $font-Flaticon-gears-triangle: "\f124";
+    $font-Flaticon-glasses: "\f125";
+    $font-Flaticon-hand-shake: "\f126";
+    $font-Flaticon-hands-shaking: "\f127";
+    $font-Flaticon-home: "\f128";
+    $font-Flaticon-home-interface: "\f129";
+    $font-Flaticon-home-page: "\f12a";
+    $font-Flaticon-house-1: "\f12b";
+    $font-Flaticon-house-sale-agreement: "\f12c";
+    $font-Flaticon-industrial-excavator: "\f12d";
+    $font-Flaticon-loaded-truck: "\f12e";
+    $font-Flaticon-loader-facing-left: "\f12f";
+    $font-Flaticon-management: "\f130";
+    $font-Flaticon-meeting: "\f131";
+    $font-Flaticon-meeting-1: "\f132";
+    $font-Flaticon-mine-truck: "\f133";
+    $font-Flaticon-mixer: "\f134";
+    $font-Flaticon-mixer-truck: "\f135";
+    $font-Flaticon-mixer-truck-1: "\f136";
+    $font-Flaticon-opened-email-envelope: "\f137";
+    $font-Flaticon-paper-airplane: "\f138";
+    $font-Flaticon-paper-airplane-1: "\f139";
+    $font-Flaticon-paper-plane-1: "\f13a";
+    $font-Flaticon-paper-plane-2: "\f13b";
+    $font-Flaticon-people: "\f13c";
+    $font-Flaticon-phone-call: "\f13d";
+    $font-Flaticon-photo-camera: "\f13e";
+    $font-Flaticon-photo-camera-1: "\f13f";
+    $font-Flaticon-photo-camera-2: "\f140";
+    $font-Flaticon-photo-camera-3: "\f141";
+    $font-Flaticon-photo-camera-4: "\f142";
+    $font-Flaticon-project-manager: "\f143";
+    $font-Flaticon-road: "\f144";
+    $font-Flaticon-road-1: "\f145";
+    $font-Flaticon-scraper: "\f146";
+    $font-Flaticon-send-symbol: "\f147";
+    $font-Flaticon-shaking-hands: "\f148";
+    $font-Flaticon-shovel: "\f149";
+    $font-Flaticon-shovel-1: "\f14a";
+    $font-Flaticon-shovel-tool: "\f14b";
+    $font-Flaticon-technology: "\f14c";
+    $font-Flaticon-tool: "\f14d";
+    $font-Flaticon-tool-1: "\f14e";
+    $font-Flaticon-tool-2: "\f14f";
+    $font-Flaticon-tool-3: "\f150";
+    $font-Flaticon-tool-4: "\f151";
+    $font-Flaticon-toolbox: "\f152";
+    $font-Flaticon-toolbox-1: "\f153";
+    $font-Flaticon-tow-truck: "\f154";
+    $font-Flaticon-tractor-side-view: "\f155";
+    $font-Flaticon-transport: "\f156";
+    $font-Flaticon-transport-1: "\f157";
+    $font-Flaticon-transport-10: "\f158";
+    $font-Flaticon-transport-11: "\f159";
+    $font-Flaticon-transport-12: "\f15a";
+    $font-Flaticon-transport-13: "\f15b";
+    $font-Flaticon-transport-2: "\f15c";
+    $font-Flaticon-transport-3: "\f15d";
+    $font-Flaticon-transport-4: "\f15e";
+    $font-Flaticon-transport-5: "\f15f";
+    $font-Flaticon-transport-6: "\f160";
+    $font-Flaticon-transport-7: "\f161";
+    $font-Flaticon-transport-8: "\f162";
+    $font-Flaticon-transport-9: "\f163";
+    $font-Flaticon-trolley: "\f164";
+    $font-Flaticon-truck: "\f165";
+    $font-Flaticon-truck-facing-right: "\f166";
+    $font-Flaticon-truck-transport-with-construction-materials: "\f167";
+    $font-Flaticon-truck-with-load: "\f168";
+    $font-Flaticon-wall-of-bricks: "\f169";
+    $font-Flaticon-web-page-home: "\f16a";
+    $font-Flaticon-weighlifter: "\f16b";
+    $font-Flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile: "\f16c";
